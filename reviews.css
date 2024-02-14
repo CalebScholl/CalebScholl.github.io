@@ -1,0 +1,51 @@
+.main {
+    background-color: silver;
+}
+
+.favorite {
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.favorite-list {
+    padding-left: 10%;
+}
+
+.favorite-list a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    display: table;
+    margin-bottom: 1%;
+}
+
+.favorite-list a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.reviews {
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.review-list {
+    padding-left: 10%;
+}
+
+.review-list a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    display: table;
+    margin-bottom: 1%;
+}
+
+.review-list a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
