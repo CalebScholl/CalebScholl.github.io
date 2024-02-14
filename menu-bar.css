@@ -72,13 +72,16 @@ footer {
 
 .dropdown {
     display: none;
-    float: center;
     text-align: center;
+    background-color: darkslateblue;
 }
 
 .dropdown-content {
     display: none;
     background-color: darkslateblue;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
 }
 
 .dropdown-content a {
