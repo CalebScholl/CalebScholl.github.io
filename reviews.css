@@ -2,25 +2,25 @@
     background-color: silver;
 }
 
-.favorite {
+.favorites {
     padding-left: 5%;
     padding-top: 1%;
     padding-bottom: 1%;
 }
 
-.favorite-list {
+.favorites-list {
     padding-left: 10%;
 }
 
-.favorite-list a {
+.favorites-list a {
     text-decoration: none;
     color: black;
     font-size: large;
     display: table;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 
-.favorite-list a:hover {
+.favorites-list a:hover {
     color: blue;
     text-decoration: underline;
 }
@@ -31,21 +31,55 @@
     padding-bottom: 1%;
 }
 
-.review-list {
+.reviews-list {
     padding-left: 10%;
 }
 
-.review-list a {
+.reviews-list a {
     text-decoration: none;
     color: black;
     font-size: large;
     display: table;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 
-.review-list a:hover {
+.reviews-list a:hover {
     color: blue;
     text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    
+    * {
+        text-align: center;
+    }
+
+    .favorites {
+        padding-left: 0;
+    }
+
+    .favorites-list {
+        padding-left: 0;
+    }
+
+    .favorites-list a {
+        display: grid;
+        margin-bottom: 3%;
+    }
+
+    .reviews {
+        padding-left: 0;
+    }
+
+    .reviews-list {
+        padding-left: 0;
+    }
+
+    .reviews-list a {
+        display: grid;
+        margin-bottom: 3%;
+    }
+
 }
 
 
